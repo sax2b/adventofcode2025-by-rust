@@ -1,0 +1,19 @@
+# Rust build output (ignore in every folder)
+**/target/
+**/debug/
+**/release/
+**/incremental/
+
+# Cargo lockfiles (ignore in every folder)
+**/Cargo.lock
+
+# Rust tooling
+**/.cargo/
+**/.rustup/
+
+# Logs
+**/*.log
+
+# OS-specific junk
+**/.DS_Store
+**/Thumbs.db
